@@ -11,6 +11,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /* Set a style for all buttons */
@@ -68,4 +69,15 @@ span.psw {
     .cancelbtn {
         width: 100%;
     }
+}
+form{
+    width: 40%;
+    margin:auto;
+    margin-top: 10%;
+}
+
+form .container{
+    width: 80%;
+    margin:auto;
+    background-color: transparent !important;
 }
